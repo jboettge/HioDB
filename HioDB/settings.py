@@ -31,6 +31,14 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'user2quali.apps.User2QualiConfig',
+    'tasks.apps.TasksConfig',
+    'user2task.apps.User2TaskConfig',
+    'user2event.apps.User2EventConfig',
+    'events.apps.eventsConfig',
+    'orgs.apps.orgsConfig',
+    'quali.apps.qualiConfig',
+    'user.apps.userConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -50,7 +58,7 @@ MIDDLEWARE_CLASSES = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'SamDB.urls'
+ROOT_URLCONF = 'HioDB.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +77,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'SamDB.wsgi.application'
+WSGI_APPLICATION = 'HioDB.wsgi.application'
 
 
 # Database
@@ -105,9 +113,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.9/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'de-de'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Zurich'
 
 USE_I18N = True
 

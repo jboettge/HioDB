@@ -1,9 +1,14 @@
 from django.db import models
 
 # Create your models here.
-class Organisations(models.Model):
-    org_name_text = (models.CharField(max_length=255))
-    org_street_addr_text = (models.CharField(max_length=255))
-    org_zip_int = (models.IntegerField)
-    org_city_addr_text = (models.CharField(max_length=255))
-    org_tel_int = (models.IntegerField)
+class orgs(models.Model):
+    name = models.CharField(max_length=255)
+    street = models.CharField(max_length=255)
+    street_number = models.IntegerField()
+    zip = models.IntegerField(default=3763)
+    city = models.CharField(max_length=50)
+    county = models.CharField(max_length=2)
+    country = models.CharField(max_length=2)
+    tel = models.IntegerField()
+    mail = models.CharField(max_length=255)
+    web = models.CharField(max_length=255)

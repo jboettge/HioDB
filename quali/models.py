@@ -1,6 +1,7 @@
 from django.db import models
-
+from django.utils import timezone
 # Create your models here.
-class Quali(models.Model):
-    quali_text = (models.CharField(max_length=255))
-    quali_date = (models.DateField())
+class quali(models.Model):
+    name = models.CharField(max_length=50)
+    descr = models.CharField(max_length=255)
+    date = models.DateField(timezone.now)

@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class QualiConfig(AppConfig):
+class qualiConfig(AppConfig):
     name = 'quali'
