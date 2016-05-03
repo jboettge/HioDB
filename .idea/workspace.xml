@@ -5,41 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a495f649-cbdf-44d5-bdbf-2d3bad7ca675" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user2event/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user2event/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user2event/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user2event/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user2event/migrations/0002_auto_20160503_1442.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user2event/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user2event/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user2event/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user2event/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user2quali/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user2quali/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user2quali/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user2quali/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user2quali/migrations/0002_auto_20160503_1440.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user2quali/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user2quali/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user2quali/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user2quali/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user2task/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user2task/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user2task/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user2task/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user2task/migrations/0002_auto_20160503_1442.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user2task/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user2task/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user2task/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user2task/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SamDB.iws" />
@@ -745,7 +710,14 @@
       <option name="project" value="LOCAL" />
       <updated>1462280123676</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added dirs">
+      <created>1462280225550</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1462280225550</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -789,7 +761,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Update of Readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update of Readme.md" />
+    <MESSAGE value="Added dirs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added dirs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
